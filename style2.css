@@ -1,0 +1,135 @@
+.main {
+    /* border: 1px solid green; */
+    height: 250px;
+    display:flex;
+    justify-content:space-around;
+    background-color: gray;
+
+}
+.box1 {
+    /* border: 1px solid black; */
+     width:25%;
+}
+.box2{
+    /* border: 1px solid black; */
+    width:60%;
+  
+}
+.logo{
+    /* border: 1px solid pink; */
+    height:30px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.intro{
+    /* border: 1px solid pink; */
+    height:195px;
+    font-size:medium;
+    display:flex;
+    justify-content:  auto;
+    flex-direction: column;
+    text-align:justify;
+}
+.links{
+    /* border: 1px solid red; */
+    height:50px;
+    display:flex;
+    justify-content:flex-end;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.links >div{
+    /* border:1px solid blue; */
+    width:50px;
+    justify-content:center;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.features{
+    border: 1px solid red;
+    height:180px;
+    display:flex;
+    justify-content: center;   
+    align-items: center;
+    margin-left:100px;
+    margin-right:100px;
+    background-color:red;
+    margin-top: 15px;
+}
+.wrap{
+    /* border:1px solid pink; */
+     margin-left: 100px;
+     margin-right: 100px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;    
+}
+.wrap>div{
+    /* border: 1px solid green; */
+    width: 100px;
+   margin: 10px;
+   text-align: center;
+   line-height: 50px;
+   font-size: 20px;
+   padding:90px;
+   background-color: gray;
+}
+.dots{
+    /* border:1px solid pink; */
+    display:flex;
+    height:4px;
+    margin: 16px 300px 16px 820px;
+    justify-content: space-around;
+    /* margin-right:300px;
+    margin-left:820px;     */
+
+}
+.dots >div{
+    /* border:1px solid black; */
+    border-radius:50%;
+    background-color: gray;
+    padding:3px;
+}
+.feed{
+    /* border: 1px solid red; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+    margin-left:184px;
+    margin-right:184px;
+}
+.info{
+    /* border: 1px solid red; */
+    height:60px;
+    display:flex;
+    margin-top: 20px;
+    background-color:gray;
+}
+.info>div{
+    /* border: 1px solid red; */
+     width:50%;
+}
+.links2{
+/* border: 1px solid red; */
+height:50px;
+display:flex;
+justify-content:flex-start;
+margin-left: 100px;
+margin-right: 100px;
+}
+.links2 >div{
+    /* border:1px solid blue; */
+    width:5px;
+    justify-content:center;
+    margin: 20px 40px 20px 70px;
+}
+.info2{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
